@@ -15,7 +15,7 @@ Filters:
 [include:0; include:N) - number of active components to include;
 [exclude:0; exclude:N) - number of active components to exclude.
 
-1. include:1 exclude:0 -> complexity O(inc0);
-2. include:2 exclude:0 -> complexity O(min(inc0, inc1));
-3. include:3 exclude:0 -> complexity O(min(inc0, inc1, inc2));
-4. include:1 exclude:1 -> complexity O(inc0).
+1. include:1 exclude:0 -> O(inc0);
+2. include:2 exclude:0 -> O(min(inc0, inc1));
+3. include:3 exclude:0 -> O(min(inc0, inc1, inc2));
+4. include:1 exclude:1 -> O(inc0).
