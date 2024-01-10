@@ -1,5 +1,4 @@
 ﻿using System;
-using WiB;
 using WiB.Variant;
 
 namespace WiB
@@ -18,11 +17,11 @@ namespace WiB
 #if UNITY_2019_1_OR_NEWER
         [UnityEngine.SerializeField]
         [UnityEngine.HideInInspector]
-        private readonly uint _type;
+        private readonly ParamType _type;
 
         [UnityEngine.SerializeField]
         [UnityEngine.HideInInspector]
-        private readonly uint _data;
+        private readonly Data4 _data;
 #else
         private readonly ParamType _type;
         private readonly Data4 _data;
