@@ -10,10 +10,10 @@ namespace WiB
 #if UNITY_2019_1_OR_NEWER
         [UnityEngine.SerializeField]
         [UnityEngine.HideInInspector]
-        private int _release;
+        private readonly int _release;
         [UnityEngine.SerializeField]
         [UnityEngine.HideInInspector]
-        private int _revision;
+        private readonly int _revision;
 #else
         private readonly int _release;
         private readonly int _revision;
