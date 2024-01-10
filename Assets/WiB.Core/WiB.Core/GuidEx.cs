@@ -12,16 +12,16 @@ namespace WiB
 #if UNITY_2019_1_OR_NEWER
         [UnityEngine.SerializeField]
         [UnityEngine.HideInInspector]
-        private uint _03;
+        private readonly uint _03;
         [UnityEngine.SerializeField]
         [UnityEngine.HideInInspector]
-        private uint _47;
+        private readonly uint _47;
         [UnityEngine.SerializeField]
         [UnityEngine.HideInInspector]
-        private uint _8b;
+        private readonly uint _8b;
         [UnityEngine.SerializeField]
         [UnityEngine.HideInInspector]
-        private uint _cf;
+        private readonly uint _cf;
 #else
         private readonly uint _03;
         private readonly uint _47;
